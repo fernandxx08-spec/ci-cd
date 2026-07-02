@@ -10,7 +10,7 @@ jobs:
 
     steps:
     -name: obtener el codigo
-    uses:actions/checkout@v4
+    uses: actions/checkout@v4
 
     -name: configurar python
     uses: actions/setup-python@v5
